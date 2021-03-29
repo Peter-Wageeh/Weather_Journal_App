@@ -1,0 +1,97 @@
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: url(./img/chris-barbalis-Y1WOu4MtiSE-unsplash.jpg) no-repeat center center/ cover;
+
+}
+
+#app {
+  display: grid;
+  grid-template-rows: max-content max-content max-content minmax(150px, 185px);
+  height: calc(100vh - 16px);
+  background: #f23557;
+  color: #f0d43a;
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  background: url(./img/chris-barbalis-Y1WOu4MtiSE-unsplash.jpg) no-repeat center center/ cover;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  padding-left: 10px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Added css */
+label {
+  display: block;
+  font-size: 27px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  padding-left: 10px;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+  cursor: pointer;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #22b2da;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 10px;
+}
+/* Reset style for HTML element */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+button:focus,
+button:hover {
+  box-shadow: none;
+  transition: 0.2s all ease-in;
+}
+
+::placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
